@@ -1,8 +1,9 @@
 const path = require("path");
+require("dotenv").config();
 if (process.env.USER) require("dotenv").config();
 
 const {
-  DATABASE_URL = "postgres://rhmohzuh:PEyN-_3sSoPJqXvHzwii1UXE01TZ2C0o@queenie.db.elephantsql.com:5432/rhmohzuh",
+  DATABASE_URL,
 } = process.env
 
 
