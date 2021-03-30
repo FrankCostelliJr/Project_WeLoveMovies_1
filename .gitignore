@@ -3,5 +3,5 @@ node_modules/
 .qualified-attach.json
 .eslintrc.json
 .env
-
 .vercel
+.vercel.json
